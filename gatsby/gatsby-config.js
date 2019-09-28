@@ -2,13 +2,13 @@
 
 module.exports = {
   siteMetadata: {
-    title: 'gatsby-starter-typescript-plus',
-    description: 'A starter kit for TypeScript-based Gatsby projects with sensible defaults.',
+    title: 'Relationship Design Tools',
+    description: 'Relationship Design Tools',
     keywords: 'gatsbyjs, gatsby, javascript, sample, something',
-    siteUrl: 'https://gatsby-starter-typescript-plus.netlify.com',
+    siteUrl: 'https://relationship-design-tools.netlify.com',
     author: {
-      name: 'Resi Respati',
-      url: 'https://twitter.com/resir014',
+      name: 'Callum Macdonald',
+      url: 'https://twitter.com/chmac',
       email: 'resir014@gmail.com'
     }
   },
@@ -17,7 +17,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'content',
-        path: `${__dirname}/src/content`
+        path: `${__dirname}/../content`
       }
     },
     {
@@ -48,7 +48,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: 'https://gatsby-starter-typescript-plus.netlify.com'
+        siteUrl: 'https://relationship-design-tools.netlify.com'
       }
     },
     'gatsby-plugin-emotion',
