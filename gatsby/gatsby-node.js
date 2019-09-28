@@ -65,7 +65,7 @@ exports.createPages = async ({ graphql, actions }) => {
     const { slug, layout } = node.fields
 
     createPage({
-      path: slug,
+      path: slug === '/index/' ? '/' : slug,
       // This will automatically resolve the template to a corresponding
       // `layout` frontmatter in the Markdown.
       //
