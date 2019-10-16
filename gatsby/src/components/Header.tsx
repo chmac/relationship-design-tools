@@ -31,6 +31,22 @@ const HomepageLink = styled(Link)`
   }
 `
 
+const MenuWrapper = styled.div`
+  margin-left: auto;
+`
+
+const RegularLink = styled(Link)`
+  color: ${colors.white};
+  font-size: 1rem;
+  font-weight: 600;
+  margin-left: 1rem;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+`
+
 interface HeaderProps {
   title: string
 }
@@ -39,6 +55,10 @@ const Header: React.FC<HeaderProps> = ({ title }) => (
   <StyledHeader>
     <HeaderInner>
       <HomepageLink to="/">{title}</HomepageLink>
+      <MenuWrapper>
+        <RegularLink to="/">Intro</RegularLink>
+        <RegularLink to="/topics">Topics</RegularLink>
+      </MenuWrapper>
     </HeaderInner>
   </StyledHeader>
 )
