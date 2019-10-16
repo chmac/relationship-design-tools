@@ -26,6 +26,7 @@
   "dependencies": {
     "@emotion/core": "^10.0.10",
     "@emotion/styled": "^10.0.12",
+    "@types/lodash": "^4.14.144",
     "babel-plugin-styled-components": "^1.10.1",
     "classnames": "^2.2.6",
     "gatsby": "^2.10.0",
@@ -44,6 +45,7 @@
     "gatsby-transformer-json": "^2.2.0",
     "gatsby-transformer-remark": "^2.5.0",
     "gatsby-transformer-sharp": "^2.2.0",
+    "lodash": "^4.17.15",
     "modern-normalize": "^0.5.0",
     "normalize.css": "^8.0.1",
     "polished": "^3.4.1",
