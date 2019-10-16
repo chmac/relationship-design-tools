@@ -8,16 +8,6 @@ import IndexLayout from '../layouts'
 
 interface TopicsProps {
   data: {
-    site: {
-      siteMetadata: {
-        title: string
-        description: string
-        author: {
-          name: string
-          url: string
-        }
-      }
-    }
     allJsonJson: {
       edges: [
         {
@@ -78,16 +68,6 @@ export default Topics
 
 export const query = graphql`
   query TopicsQuery {
-    site {
-      siteMetadata {
-        title
-        description
-        author {
-          name
-          url
-        }
-      }
-    }
     allJsonJson {
       edges {
         node {
