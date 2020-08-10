@@ -2,7 +2,8 @@
 
 Some discussion points to kick off a relationship design conversation?
 
-* Time Together
+## Time Together
+
 * What’s your availability?
     * Emotionally and time wise
 * How much time do you imagine spending together?
